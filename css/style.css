@@ -1,0 +1,102 @@
+body {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+	background: white;
+	padding: 0 30px;
+}
+
+header {
+	background-image: url('../images/beach-background.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	padding-top: 30px;
+}
+
+.logo {
+	padding-top: 30px;
+	width: 40%;
+	float: left;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Pacifico', cursive;
+	color: #990444;
+}
+
+h1 a {
+	color: #990444;
+}
+
+nav {
+	float: right;
+	width: 60%;
+	padding-top: 30px;
+}
+
+nav ul {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 1.750em;
+	text-shadow: 3px 2px 4px #ccc;
+	color: #570470;
+}
+
+nav li a {
+	color: #570470;
+}
+
+nav li a:hover {
+	color: #2E0115;
+}
+
+section {
+	padding: 150px 0;
+}
+
+#about {
+	background: red;
+}
+
+#about .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bio, .profile {
+	flex: 1;
+}
+
+.profile {
+	text-align: center;
+}
+
+#education {
+	background: black;	
+}
+
+#experience {
+	background: blue;	
+}
+
+#portfolio {
+	background: orange;	
+}
+
+#contact {
+	background: yellow;	
+}
+
+
