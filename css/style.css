@@ -6,11 +6,12 @@ body {
 h1 {
 	font-size: 3em;
 	font-family: 'Pacifico', cursive;
-	color: #990444;
+	color: #fff;
+	line-height: .5em;
 }
 
 h1 a {
-	color: #990444;
+	color: #fff;
 }
 
 h2 {
@@ -33,6 +34,7 @@ h4 {
 p {
 	font-size: 1.5em;
 	line-height: 1.5em;
+	padding-bottom: 1em;
 }
 
 .container {
@@ -45,17 +47,19 @@ p {
 	display: flex;
 }
 
+.align-middle {
+	align-items: center;
+}
+
 header {
-	background-image: url('../images/beach-background.jpg');
-	background-size: cover;
-	background-position: top center;
-	background-repeat: no-repeat;
-	min-height: 400px;
 	padding-top: 30px;
+	height: 60px;
+	background: #2E0115;
+	position: fixed;
+	width: 100%;
 }
 
 .logo {
-	padding-top: 30px;
 	width: 40%;
 	float: left;
 }
@@ -63,7 +67,6 @@ header {
 nav {
 	float: right;
 	width: 60%;
-	padding-top: 30px;
 }
 
 nav ul {
@@ -72,18 +75,41 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	padding-right: 20px;
-	font-size: 1.750em;
-	text-shadow: 3px 2px 4px #ccc;
-	color: #570470;
+	padding-right: 30px;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+nav li:last-child {
+	padding-right: 0;
 }
 
 nav li a {
-	color: #570470;
+	color: #fff;
 }
 
 nav li a:hover {
-	color: #2E0115;
+	color: #C8025A;
+}
+
+.hero {
+	background-image: url('../images/beach-background.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	text-align: center;
+	color: #fff;
+}
+
+.button {
+	padding: 15px;
+	display: inline-block;
+	background-color: #3C063A;
+	color: #fff;
+	font-size: 1.25em;
+	text-transform: uppercase;
 }
 
 section {
@@ -145,6 +171,24 @@ section {
 
 #portfolio {
 	background: orange;	
+}
+
+.portfolio-item {
+
+}
+
+.portfolio-item figure {
+	position: relative;
+}
+
+.portfolio-item figure figcaption {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+}
+
+.portfolio-item figure figcaption h3 {
+	text-align: center
 }
 
 #contact {
