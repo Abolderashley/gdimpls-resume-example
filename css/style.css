@@ -57,6 +57,7 @@ header {
 	background: #2E0115;
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 
 .logo {
@@ -170,7 +171,7 @@ section {
 }
 
 #portfolio {
-	background: orange;	
+	background: #3C063A;	
 }
 
 .portfolio-item {
@@ -192,7 +193,26 @@ section {
 }
 
 #contact {
-	background: yellow;	
+	background: #2E0115;
+	padding: 150px 0;	
+}
+
+.social {
+	color: #fff;
+}
+
+.social li {
+	/*display: inline-block;*/
+	padding-right: 25px;
+}
+
+.social li:last-child {
+	padding-right: 0;
+}
+
+.social a {
+	color: #fff;
+	font-size: 2em;
 }
 
 
