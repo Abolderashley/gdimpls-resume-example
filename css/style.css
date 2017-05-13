@@ -3,11 +3,46 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+h1 {
+	font-size: 3em;
+	font-family: 'Pacifico', cursive;
+	color: #990444;
+}
+
+h1 a {
+	color: #990444;
+}
+
+h2 {
+	font-size: 2.5em;
+	padding: 30px 0;
+	text-align: center;
+	color: #fff;
+}
+
+h3 {
+	font-size: 2em;
+	padding: 10px 0;
+}
+
+h4 {
+	font-size: 1.75em;
+	padding: 10px 0;
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
 .container {
 	width: 85%;
 	margin: 0 auto;
-	background: white;
 	padding: 0 30px;
+}
+
+.flex {
+	display: flex;
 }
 
 header {
@@ -23,16 +58,6 @@ header {
 	padding-top: 30px;
 	width: 40%;
 	float: left;
-}
-
-h1 {
-	font-size: 3em;
-	font-family: 'Pacifico', cursive;
-	color: #990444;
-}
-
-h1 a {
-	color: #990444;
 }
 
 nav {
@@ -66,7 +91,8 @@ section {
 }
 
 #about {
-	background: red;
+	background: #C8025A;
+	color: #fff;
 }
 
 #about .container {
@@ -84,11 +110,37 @@ section {
 }
 
 #education {
-	background: black;	
+	background: #990444;	
+}
+
+#education .container {
+	justify-content: space-around;
+}
+
+.education-item {
+	color: #fff;
+	padding-right: 50px;
+}
+
+.education-item:last-child {
+	padding-right: 0;
 }
 
 #experience {
-	background: blue;	
+	background: #570470;
+	color: #fff;	
+}
+
+.company-details {
+	flex: 1;
+}
+
+.job-details {
+	flex: 3;
+}
+
+.experience-item {
+
 }
 
 #portfolio {
